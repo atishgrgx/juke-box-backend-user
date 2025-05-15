@@ -1,10 +1,10 @@
 {
   "name": "jukeboxbackend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "start.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node start.js",
+    "dev": "nodemon start.js",
     "test": "mocha"
   },
   "keywords": [],
@@ -24,7 +24,8 @@
     "spotify-web-api-node": "^5.0.2"
   },
   "devDependencies": {
-    "chai": "^5.2.0",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
     "mocha": "^11.2.2",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.1"

@@ -1,9 +1,9 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const app = require('../server'); 
-const expect = chai.expect;
+chai.use(chaiHttp); 
 
-chai.use(chaiHttp);
+const expect = chai.expect;
 
 describe('Smoke Tests', () => {
   
