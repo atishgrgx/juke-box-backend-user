@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to JukeBox backend
 
 Hi there, this is guide to how to successfully run the backend of the JukeBox application. After cloning the application open the `jukebox-backend` directory.
@@ -33,7 +32,3 @@ After creating the account you need to create a new project called `JukeBox`. Th
 
 As for the best practice create a database user for this cluster and use those created credentials for the `db_username` and `db_password`.
 
-=======
-# juke-box-backend-user
-This repo is only for user component of juke box backend 
->>>>>>> 6fd174cb1f174ee0db3c9e7378e178d9caf25a6a
